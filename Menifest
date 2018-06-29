@@ -1,9 +1,9 @@
-  <service android:name="com.panchayat.admin.panchayatadmin.FirebaseServices.MyFirebaseInstanceIDService">
+  <service android:name="<package>.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.panchayat.admin.panchayatadmin.FirebaseServices.MyFirebaseMessagingService">
+        <service android:name="<package>.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
